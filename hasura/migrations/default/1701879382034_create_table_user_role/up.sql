@@ -1,0 +1,1 @@
+CREATE TABLE "user"."role" ("id" serial NOT NULL, "name" varchar NOT NULL, "created_at" timestamptz NOT NULL DEFAULT now(), "updated_at" timestamptz NOT NULL DEFAULT now(), "created_by" integer, "updated_by" integer, "organisation_id" integer, PRIMARY KEY ("id") , UNIQUE ("id"), UNIQUE ("name"));

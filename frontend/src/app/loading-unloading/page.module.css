@@ -1,0 +1,30 @@
+.status {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.drawer_payable-text {
+    font-size: 16px;
+    color: #22222299;
+}
+.drawer_payable-amount {
+    width: 80%;
+    border: 2px solid #f3f3f3;
+    padding: 8px 12px;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    margin: 10px 0 20px 0;
+}
+
+.drawer_upload-button-container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}

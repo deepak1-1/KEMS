@@ -1,0 +1,13 @@
+table:
+  name: user_role
+  schema: user
+object_relationships:
+  - name: role
+    using:
+      manual_configuration:
+        column_mapping:
+          role_id: id
+        insertion_order: null
+        remote_table:
+          name: role
+          schema: user

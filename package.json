@@ -1,0 +1,15 @@
+{
+    "name": "kapila-expense-management",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "install": "cd frontend && yarn && cd ../server && yarn",
+        "dev": "concurrently \"cd frontend && yarn dev\" \"cd server && yarn dev\"",
+        "dev:server": "cd server && yarn dev"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

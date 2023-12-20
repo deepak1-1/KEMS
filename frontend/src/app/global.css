@@ -1,0 +1,75 @@
+* {
+    font-family: Inter;
+}
+
+.heading-text {
+    font-size: 22px;
+}
+.text-fade-1 {
+    color: #22222299;
+}
+
+.header-margin {
+    margin-bottom: 20px;
+}
+
+.flex-row-between {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-row-start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flex-row-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.gap-30 {
+    gap: 30px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-10 {
+    gap: 10px;
+}
+
+.background-primary {
+    background-color: #28318b !important;
+}
+
+.hover-scale-10225,
+.hover-scale-1125 {
+    transition: all 1s ease-in-out;
+}
+
+.hover-scale-10225:hover {
+    transform: scale(1.0225);
+}
+
+.hover-scale-1125:hover {
+    transform: scale(1.125);
+}
+
+.antd-tabs-css {
+    background-color: white;
+    padding: 0.5em 2em;
+    border-radius: 12px;
+}
+
+.antd-drawer-css {
+    border-radius: 20px 0 0 20px;
+}
+
+.antd-drawer-css .ant-drawer-title {
+    font-size: 20px;
+    font-weight: 500;
+}
